@@ -64,9 +64,9 @@
   </div>
 
   <script>
-    const apiKey = '<OPENROUTER_API_KEY>';
-    const siteUrl = '<YOUR_SITE_URL>';
-    const siteName = '<YOUR_SITE_NAME>';
+    const apiKey = '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';
+    const siteUrl = 'https://zu38.github.io/PAI';
+    const siteName = 'PAI chatbot';
     
     async function sendMessage() {
       const userInput = document.getElementById('user-input').value;
@@ -81,8 +81,8 @@
           method: 'POST',
           headers: {
             Authorization: `Bearer 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`,
-            'HTTP-Referer': siteUrl,
-            'X-Title': siteName,
+            'HTTP-Referer': https://zu38.github.io/PAI,
+            'X-Title': PAI chatbot,
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
